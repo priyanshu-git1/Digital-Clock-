@@ -1,0 +1,33 @@
+/* style.css */
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-box {
+    background: #333;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #00ffcc;
+    text-align: center; /* This keeps everything centered */
+}
+
+#my-date {
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+#my-clock {
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    font-size: 80px;
+    margin: 0;
+}
